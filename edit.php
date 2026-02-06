@@ -1,5 +1,5 @@
 <?php
-include 'db.php';
+include 'config/db.php';
 
 $id = $_GET['id'];
 $data = mysqli_query($conn, "SELECT * FROM todos WHERE id=$id");
