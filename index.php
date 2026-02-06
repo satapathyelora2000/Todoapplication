@@ -6,7 +6,7 @@ $result = mysqli_query($conn, "SELECT * FROM todos ORDER BY id DESC");
 <!DOCTYPE html>
 <html>
 <head>
-    <title>Todo App</title>
+  <title>Todo App</title>
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
